@@ -15,4 +15,4 @@ RUN cargo build --release
 EXPOSE 3030
 
 # Set the command to run your application
-CMD ["target/release/your_executable_name"]
+CMD ["target/release/rust-warp-health"]
